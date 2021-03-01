@@ -1,0 +1,305 @@
+body {
+	font-family: Poppins;
+}
+header {
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+	margin: 10px 0px 15px 0px;
+}
+
+.navbar-nav,
+.mr-auto {
+  	flex: 1;
+  	margin: auto !important;
+  	display: flex;
+  	justify-content: flex-end;
+}
+.logo  {
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 auto;
+	color: #444444;
+	max-width: 150px;
+}
+.navbar {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.navbar svg {
+ 	height: 35px;
+ 	font-size: 12px;
+ 	font-weight: 300;
+}
+.navbar > a:hover {
+	text-decoration: none;
+}
+.navbar a h2 {
+	margin: 0;
+	font-family: Poppins;
+ 	font-size: 16px;
+ 	font-weight: bold;
+}
+.navbar a h2 img {
+	padding-bottom: 3px;
+}
+.navbar a h2 span {
+	font-weight: normal;
+	font-size: 11px;
+}
+.navbar a h2, .navbar a span {
+	text-transform: uppercase;
+}
+#tichler {
+	font-size: 12px;
+}
+.navbar-nav li a {
+	color: #444444;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.main-head {
+	background: url('../img/header-bg.png') center center no-repeat;
+	background-size: 100%;
+	height: 100vh;
+   background-size: cover;
+}
+
+.main-head .row {
+}
+
+.title-txt { 
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 108px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.header-btns {
+	margin-top: 30px;
+}
+
+.header-btns .btn {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	border-radius: 0;
+
+}
+.header-btns .btn:first-child {
+	margin-right: 25px;
+}
+.srvcs-btn {
+	width: 200px;
+	height: 60px;
+	background: #FFFFFF;
+}
+
+.order-btn {
+	width: 320px;
+	height: 60px;
+	background: #D90317;
+	color: #fff;
+}
+
+.our-srvcs-txt {
+	display:flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.our-srvcs-imgs {
+	display: flex;
+	margin-top: -50px;
+}
+.our-srvcs-imgs div:first-child {
+	margin-left: 15px;
+}
+.our-srvcs-imgs div:not(:last-child) {
+	margin-right: 30px;
+}
+.our-services h2 {
+	color: #000;
+	font-size: 36px;
+	line-height: 45px;
+}
+.our-services h3 {
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+.our-services p {
+	padding-top: 10px;
+	font-size: 18px;
+	line-height: 27px;
+}
+.our-services .col-4, .our-services .col-8 {
+	padding: 0;
+}
+.our-srvcs-txt h2 span {
+	color: #D90317;
+}
+.manufactory {
+	margin-top: 120px;
+}
+.interior {
+	background: url('../img/Photo Manufactory.png') no-repeat;
+	background-size: cover;
+	height: 60vh;
+}
+.block-mnfctr {
+	background-color: #D90317;
+	height: 60vh;
+	color: #FFFFFF;
+	padding-top: 50px;
+}
+.block-mnfctr h2 {
+	font-size: 36px;
+	line-height: 45px;
+}
+.block-mnfctr h3 {
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.block-mnfctr p {
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 300;
+}
+.for-partners {
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+.fr-prtnrs-txt, .bt-cmpn-img {
+	padding-right: 40px;
+	color: #444444;
+}
+.fr-prtnrs-txt h2, .fr-prtnrs-txt .h2, .bt-cmpn-txt h2, .bt-cmpn-txt .h2, .for-kitchen-txt h2 {
+	font-size: 36px;
+	line-height: 45px;
+}
+.fr-prtnrs-txt .h2 span, .bt-cmpn-txt h2 span {
+	color: #D90317;
+}
+.fr-prtnrs-txt h3, .fr-prtnrs-txt p, .bt-cmpn-txt h3, .bt-cmpn-txt p {
+	font-size: 18px;
+	line-height: 27px;
+}
+.about-company .bt-cmpn-img{
+	padding-bottom: 75px;
+}
+.gallery {
+	margin-top: 50px;
+}
+.gallery h2 span, .title-form span {
+	color: #D90317;
+}
+.furniture-txt {
+	font-size: 24px;
+	line-height: 36px;
+	padding-left: 10px !important;
+	padding-top: 10px !important;
+}
+.furniture-txt h2 {
+	margin-bottom: 0;
+}
+.furniture-txt a, .for-kitchen a, .for-kitchen-txt a, .for-kitchen-2 a {
+	font-size: 14px;
+	line-height: 21px;
+	color: #D90317;
+}
+.furniture-txt a:hover, .for-kitchen a:hover, .for-kitchen-txt a:hover, .for-kitchen-2 a:hover {
+	text-decoration: none;
+}
+.for-kitchen {
+	background-color: #D90317;
+	height: 44vh;
+}
+.for-kitchen,  .for-kitchen-2 {
+	padding: 20px !important;
+}
+.for-kitchen {
+	color: #fff;
+}
+.for-kitchen h2, .for-kitchen-2 р2 {
+	font-size: 24px;
+	line-height: 36px;
+}
+.for-kitchen h2 {
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+.for-kitchen p {
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.block-contact {
+	margin-top: 110px;
+	background: url('../img/563566-PL2J8P-65.png') no-repeat;
+	background-position: top right;
+	background-size: 40%;
+}
+.block-contact h2 {
+	font-size: 36px;
+	line-height: 45px;
+}
+.block-contact h3 {
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #444444;
+}
+input {
+  border:0;
+  font-size: 18px;
+  line-height: 27px;
+  border-bottom: 1px solid #CCCCCC;
+  outline:none;
+  color: #CCCCCC;
+  padding-left: 12px;
+} 
+form {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+form p:first-child {
+	margin-bottom: 40px;
+}
+form p input:first-child {
+	margin-right: 15px;
+}
+.btns {
+	margin-top: 45px;
+}
+form button {
+	width: 260px;
+	height: 55px;
+	background: #D90317;
+	border-radius: 0 !important;
+	margin-right: 20px;
+	color: #fff;
+}
+#accept {
+	margin-right: 10px;
+}
+form label {
+	padding-top: 5px;
+	font-size: 11px;
+	line-height: 15px;
+}
